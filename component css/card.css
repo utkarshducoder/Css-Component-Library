@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+body{
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+background-color:  #31353a;
+height: 100%;
+
+}
+
+* {
+
+--primary-color: #ecfeff ;
+--secondary-color: #4908fa;
+}
+
+
+
+nav{
+    display: flex;
+    gap: 20px;
+    width: 100vw;
+    flex-direction: column;
+    grid-area: nav;
+    
+
+}
+
+nav h2{
+    position: relative;
+    top: 35px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.125rem;
+}
+
+.imp-text{
+    font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+color: var(--secondary-color); 
+}
+
+
+
+
+
+nav ul{
+    margin-left: auto; 
+    display: flex;
+  gap: 15px;
+  position: relative;
+  bottom: 35px;
+  padding-inline-end: 0.7rem;
+ 
+}
+.link{
+  color: blue;
+}
+li{
+ 
+    list-style: none;
+    padding: 0.5rem;
+    font-weight: bold;
+   
+}
+li a{
+    /* text-decoration: none; */
+    color: blue;
+    
+}
+
+a:hover{
+    color: blue;
+  
+}
+
+main{
+    
+    /* grid-template-areas: 200px 1fr; */
+    /* align-items: center; 
+    padding: 3.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: auto; */
+    grid-area: main;
+    font-size: 1.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    
+   
+}
+
+main p{
+    letter-spacing: 0.1rem;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    /* line-height: 2rem; */
+    letter-spacing: 0.1rem;
+ }
+
+ .impact{
+     font-style: italic;
+     color: var(--secondary-color);
+     
+ }
+
+ 
+ 
+
+.component-text{
+    grid-area: pitch;
+    font-size: 2rem;
+    margin: auto;
+    letter-spacing: 0.1rem;
+}
+
+
+hr{
+    border-top: 1px solid var(--primary-color); 
+  width: 100rem;
+}
+
+.highlight{
+    color: var(--secondary-color);
+}
+
+iframe{
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+      
+
+}
+
+footer ul{
+ padding-inline-start: 0.5rem;
+    display: flex;
+  gap: 20px;
+
+
+}
+
+
+
+
+    .card-heading {
+        margin-left: 0.3rem;
+      }
+      
+      .author {
+        padding: 2px;
+        margin: 0.3rem;
+      }
+      
+      .card-content {
+        margin: 0.5rem;
+      }
+      
+      
+      .card {
+        background-color: var(--secondary-color);
+        box-shadow: 1px 1px 1px white;
+        width: 22rem;
+        border-radius: 1rem;
+        border: 1px solid var(--secondary-color);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      
+      .card-horizontal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-right: auto;
+      }
+      
+      .card-image {
+        max-inline-size: 100%;
+        block-size: auto;
+        border-radius: 1rem 1rem 0 0;
+        position: relative;
+
+      }
+      
+      .image-horizontal {
+        border-radius: 0px;
+        width: 50%;
+      }
+      
+      .card-actions {
+        display: flex;
+        justify-content: space-around;
+        margin: 0.5rem 1rem 1rem 1rem;
+        padding: 0.3rem;
+        cursor: pointer;
+      }
+      
+      .card-btn {
+        border: none;
+        font-weight: bolder;
+        font-size: 1rem;
+        color: var(--primary-color);
+        background-color: var(--body-background-color);
+        cursor: pointer;
+      }
+      
+      .card-icons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+      }
+      
+      .fas {
+        color: var(--text-color-black);
+      }
+      
+      .fas:hover {
+        color: var(--primary-color);
+      }
+      
+      /* cards overlay */
+      /*** Simple or original overlay ***/
+      
+      /* Main container */
+      .overlay-image {
+        position: relative;
+        width: 100%;
+      }
+      
+      /* Original image */
+      .overlay-image .image {
+        display: block;
+        width: 10%;
+        height: auto;
+      }
+      
+      /* Original text overlay */
+      .overlay-image .text {
+        color: var(--body-background-color);
+        font-size: 2rem;
+        line-height: 1.5em;
+        text-shadow: 2px 2px 2px var(--text-color-black);
+        text-align: center;
+        position: relative;
+        top: 90%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+      
+      .dismiss {
+        color: var(--primary-color);
+        font-size: 1.2rem;
+        font-weight: 600;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        cursor: pointer;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        text-align: center;
+      }
+      
+      .dismiss:hover {
+        color: var(--body-background-color);
+        background-color: var(--hover-color);
+      }
+      
+      .card-badge {
+        background-color: var(--hover-color);
+        color: var(--body-background-color);
+        font-size: 1.2rem;
+        font-weight: 600;
+        width: 5rem;
+        position: absolute;
+        top: 2.5%;
+        left: 0%;
+        text-align: center;
+      }
+
+
+      .horizontal-card {
+        display: flex;
+        gap: 20px;
+        background-color: var(--secondary-color);
+        box-shadow: 1px 1px 1px white;
+        flex-direction: column;
+        width: 100%;
+        height: 5%;
+        border-radius: 1rem;
+        border: 1px solid var(--secondary-color); 
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+          /* background-color: var(--secondary-color);
+          box-shadow: 1px 1px 1px white;
+          width: 22rem;
+          border-radius: 1rem;
+          border: 1px solid var(--secondary-color);
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+      }
+      
+      .horizontal-img {
+        max-inline-size: 50%;
+        border-radius: 1rem;
+
+        /* max-inline-size: 100%;
+        block-size: auto;
+        border-radius: 1rem 1rem 0 0;
+        position: relative; */
+      }
+      
+      .main-content {
+        display: flex;
+        gap: 20px;
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+
+
+* {
+   box-sizing: border-box;
+--primary-color: #ecfeff ;
+--secondary-color: #4908fa;
+}
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%; 
+}
+label.logo{
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav .main-list{
+  float: right;
+  margin-right: 20px;
+}
+nav .main-list li{
+  display: inline-block;
+  line-height: 30px;
+  /* margin: 50px 0; */
+  top: 2px;
+}
+nav .main-list li a{
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 925px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav  li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .main-list{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav .main-list li{
+    display: block;
+  }
+  nav .main-list a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .main-list{
+    left: 0;
+  }
+}
+.header{
+    background: #ee5253;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+p{
+    color: #fff;
+}
+.main{
+    height: 100%;
+    margin-top: 60px;
+    padding: 10px 50px;
+}
+#sidebarMenu{
+    height: 200%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 120px;
+    margin-top: 60px;
+    background: #2e86de;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+ }
+ #openSidebarMenu:checked ~ #sidebarMenu{
+    transform: translateX(0px);
+
+ }
+ .menu{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ .menu li{
+     color: #fff;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+ }
+ .menu li a{
+     color: #fff;
+     display: block;
+     text-decoration: none;
+     text-transform: uppercase;
+     padding: 20px;
+ }
+ .sidebarIcontoggle{
+     width: 22px;
+     height: 22px;
+     z-index: 20;
+     position: absolute;
+     top: 22px;
+     left: 15px;
+     cursor: pointer;
+     
+ }
+.spinner{
+    height: 3px;
+    background: #fff;
+    transition: all 0.3s;
+}
+.spinner.middle,
+.spinner.bottom{
+    margin-top: 3px;
+}
+.imp-text{
+    font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+width: 100%;
+padding: 0;
+position: relative;
+text-align: center;
+color: blue;
+/* color: var(--secondary-color); */
+}
+.major-list{
+    list-style: none;
+    display: inline;
+    position: absolute;
+    left: 810px;
+    top: 15px;
+}
+main{
+    
+    /* grid-template-areas: 200px 1fr; */
+    /* align-items: center; 
+    padding: 3.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: auto; */
+    grid-area: main;
+    font-size: 1.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    
+   
+}
+
+main p{
+    letter-spacing: 0.1rem;
+}
+h3{
+    font-size: 1.5rem;
+    /* line-height: 2rem; */
+    letter-spacing: 0.1rem;
+ }
+
+ .impact{
+     font-style: italic;
+     color: var(--secondary-color);
+     
+ }
+ 
+
+.component-text{
+    grid-area: pitch;
+    font-size: 42.5%;
+    font-size: 2rem; 
+    margin: auto;
+    letter-spacing: 0.1rem;
+}
+h1{
+  /* grid-area: pitch; */
+    font-size: 42.5%;
+    
+    /* margin: auto; */
+    letter-spacing: 0.1rem;
+    text-align: center;
+    display: grid;
+}
+
+hr{
+    border-top: 1px solid var(--primary-color); 
+  width: 100rem;
+}
+
+.highlight{
+    color: hotpink;
+}
+
+iframe{
+    padding-top: 1rem;
+}
+
+
+
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: #fff;
+      
+
+}
+
+footer ul{
+ padding-inline-start: 0.5rem;
+    display: flex;
+  gap: 20px;
+  color: #fff;
+
+
+}
+
+ 

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/e45a62e93a.js" crossorigin="anonymous"></script>
+
+
+
+    
+    <link rel="stylesheet" href="card.css">
+    <title>the-css-companion</title>
+</head>
+<body>
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+    <label class="logo">Components of Css</label>
+    
+    <ul class="main-list">
+      <li><a class="active" href="index.html">Home</a> </li>
+      <li><a href="responsive.html">Components</a> </li>
+      <li><a href="responsive.html">Docs</a> </li>
+      <li><a href="responsive.html">Git</a> </li>
+    </ul>
+  </nav>
+
+
+  <input type="checkbox" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIcontoggle">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+    </label>
+
+
+    <div id="sidebarMenu">
+    <ul class="menu">
+        <li><a href="responsive.html">Avatar</a></li>
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <li><a href="img.html">Image</a></li>
+        <li><a href="input.html">Input</a></li>
+        <li><a href="text.html">Text Utilities</a></li>
+        <li><a href="list.html">Lists</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <li><a href="modal.html">Modal</a></li>
+        <li><a href="rating.html">Rating</a></li>
+        <li><a href="toast.html">Toast</a></li>
+        <li><a href="grid.html">Grid</a></li>
+    
+    </ul>
+</div>
+<br><br><br><br><br>
+        <main>
+            
+
+
+<h3 class="imp-text">Vertical Card</h3>
+
+<div class="card">
+    <div class="image-div">
+      <img class="card-image" src="nature.jpg" alt="error" />
+    </div>
+    <div class="card-content">
+      <h2 class="card-heading">Peaceful nature</h2>
+      <p class="author">by ABC</p>
+      <p class="content">
+        A crash test dummy, or simply dummy, is a full-scale anthropomorphic test device (ATD) that simulates the dimensions, weight proportions and articulation of the human body during a traffic collision. 
+      </p>
+    </div>
+    <div>
+      <div class="card-actions">
+        <button class="card-btn">Buy</button>
+        <button class="card-btn">Add To Cart</button>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+  </div>
+  <br>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EPeaceful%2520nature%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520crash%2520test%2520dummy%252C%2520or%2520simply%2520dummy%252C%2520is%2520a%2520full-scale%2520anthropomorphic%2520test%2520device%2520%28ATD%29%2520that%2520simulates%2520the%2520dimensions%252C%2520weight%2520proportions%2520and%2520articulation%2520of%2520the%2520human%2520body%2520during%2520a%2520traffic%2520collision.%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 614px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<h3 class="imp-text">Card with text only</h3>
+
+<div class="card">
+    <div class="image-div">
+      <img class="card-image" src="nature.jpg" alt="error" />
+    </div>
+    <div class="card-content">
+      <h2 class="card-heading">Peaceful nature</h2>
+      <p class="author">by ABC</p>
+      <p class="content">
+        A crash test dummy, or simply dummy, is a full-scale anthropomorphic test device (ATD) that simulates the dimensions, weight proportions and articulation of the human body during a traffic collision. 
+      </p>
+    </div>
+    <div>
+      <div class="card-actions">
+        <button class="card-btn">Buy</button>
+        <button class="card-btn">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=div%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EPeaceful%2520nature%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520crash%2520test%2520dummy%252C%2520or%2520simply%2520dummy%252C%2520is%2520a%2520full-scale%2520anthropomorphic%2520test%2520device%2520%28ATD%29%2520that%2520simulates%2520the%2520dimensions%252C%2520weight%2520proportions%2520and%2520articulation%2520of%2520the%2520human%2520body%2520during%2520a%2520traffic%2520collision.%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 1024px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+<h3 class="imp-text">Card with icons only</h3>
+<div class="card">
+    <div class="image-div">
+      <img class="card-image" src="nature.jpg" alt="error" />
+    </div>
+    <div class="card-content">
+      <h2 class="card-heading">Peaceful nature</h2>
+      <p class="author">by ABC</p>
+      <p class="content">
+        A crash test dummy, or simply dummy, is a full-scale anthropomorphic test device (ATD) that simulates the dimensions, weight proportions and articulation of the human body during a traffic collision. 
+      </p>
+    </div>
+    <div>
+      <div class="card-actions">
+
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+  </div>
+  <br>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522imp-text%2522%253ECard%2520with%2520icons%2520only%253C%252Fh3%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EPeaceful%2520nature%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520A%2520crash%2520test%2520dummy%252C%2520or%2520simply%2520dummy%252C%2520is%2520a%2520full-scale%2520anthropomorphic%2520test%2520device%2520%28ATD%29%2520that%2520simulates%2520the%2520dimensions%252C%2520weight%2520proportions%2520and%2520articulation%2520of%2520the%2520human%2520body%2520during%2520a%2520traffic%2520collision.%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 614px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+<h3 class="imp-text">Card with text overlay on image</h3>
+<div class="card">
+    <div class="image-div">
+      <div class="overlay-image">
+        <img class="card-image" src="nature.jpg" alt="error" />
+        <div class="text">Amazing Paris portrtait</div>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="author">by ABC</p>
+      <p class="card-content">
+        The famous potrait of paris was clicked by abc artist. The portrait is
+        avialable in high definition and underlines the details.
+      </p>
+    </div>
+    <div>
+      <div class="card-actions">
+        <button class="card-btn">Buy</button>
+        <button class="card-btn">Add To Cart</button>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+  </div>
+    <br>
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253EAmazing%2520Paris%2520portrtait%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520famous%2520potrait%2520of%2520paris%2520was%2520clicked%2520by%2520abc%2520artist.%2520The%2520portrait%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520avialable%2520in%2520high%2520definition%2520and%2520underlines%2520the%2520details.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+    style="width: 807px; height: 633px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+
+  <h3 class="imp-text">Cards with Badge</h3>
+  <div class="card">
+    <div class="image-div">
+      <div class="overlay-image">
+        <img class="card-image" src="nature.jpg" alt="error" />
+        <div class="card-badge">New</div>
+      </div>
+    </div>
+    <div class="card-content">
+      <h2 class="card-heading">Amazing Paris portrtait</h2>
+      <p class="author">by ABCe</p>
+      <p class="card-content">
+        The famous potrait of paris was clicked by abc artist. The portrait is
+        avialable in high definition and underlines the details.
+      </p>
+    </div>
+    <div>
+      <div class="card-actions">
+        <button class="card-btn">Buy</button>
+        <button class="card-btn">Add To Cart</button>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+</div>
+  <br>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EAmazing%2520Paris%2520portrtait%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABCe%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520famous%2520potrait%2520of%2520paris%2520was%2520clicked%2520by%2520abc%2520artist.%2520The%2520portrait%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520avialable%2520in%2520high%2520definition%2520and%2520underlines%2520the%2520details.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 807px; height: 651px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+<h3 class="imp-text">Horizontal card</h3>
+<div class="card">
+
+
+
+  <div class="horizontal-card">
+    <div class="main-content">
+      <img src="nature.jpg" alt="" class="horizontal-img" />
+    </div>
+      <div class="content-horizontal">
+        <h3>Amazing Paris portrait</h3>
+        <small>by ABC</small>
+        <p class="">
+          The famous potrait of paris was clicked by abc artist. The portrait
+          is avialable in high definition and underlines the details.
+        </p>
+      </div>
+    </div>
+    <div class="card-actions">
+        <button class="card-btn">Buy</button>
+        <button class="card-btn">Add To Cart</button>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-share-alt"></i>
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    </div>
+
+
+    <br>
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522nature.jpg%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253EAmazing%2520Paris%2520portrtait%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author%2522%253Eby%2520ABC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520The%2520famous%2520potrait%2520of%2520paris%2520was%2520clicked%2520by%2520abc%2520artist.%2520The%2520portrait%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520avialable%2520in%2520high%2520definition%2520and%2520underlines%2520the%2520details.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+    style="width: 807px; height: 633px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+
+
+
+</main>
+        <footer>
+            <h4>all rights reserved @ CSS-Companion</h4>
+            <ul>
+                <li>git</li>
+                <li>docs</li>
+                <li>discord</li>
+            </ul>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
+
+
+

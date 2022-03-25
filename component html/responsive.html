@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/e45a62e93a.js" crossorigin="anonymous"></script>
+
+
+
+   
+    <link rel="stylesheet" href="responsive.css">
+    <title>the-css-companion</title>
+</head>
+
+
+
+<body>
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+    <label class="logo">Components of Css</label>
+    
+    <ul class="main-list">
+      <li><a class="active" href="index.html">Home</a> </li>
+      <li><a href="responsive.html">Components</a> </li>
+      <li><a href="responsive.html">Docs</a> </li>
+      <li><a href="responsive.html">Git</a> </li>
+    </ul>
+  </nav>
+
+
+
+
+   
+    <input type="checkbox" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIcontoggle">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+    </label>
+    <div id="sidebarMenu">
+        
+        <ul class="menu">
+            <li><a href="responsive.html">Avatar</a></li>
+            <li><a href="alert.html">Alert</a></li>
+            <li><a href="badge.html">Badge</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="img.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="text.html">Text Utilities</a></li>
+            <li><a href="list.html">Lists</a></li>
+            <li><a href="navigation.html">Navigation</a></li>
+            <li><a href="modal.html">Modal</a></li>
+            <li><a href="rating.html">Rating</a></li>
+            <li><a href="toast.html">Toast</a></li>
+            <li><a href="grid.html">Grid</a></li>
+        
+        </ul>
+    </div>
+
+<br><br><br><br><br>
+
+    <main>
+        <h3 class="imp-text">Avatar</h3>
+       
+           
+                <img src="paris.jpg" alt="sunset" class="avatar-image" />
+                <img src="sunset.jpg" alt="sunset" class="avatar-image medium" />
+                <img src="nature.jpg" alt="sunset" class="avatar-image large" />
+              
+        <p> 
+        Avatar is a kind of image which displays passport size photos in the form of a round image. For this first we need to add HTML where image is set with the help of image tag. After that in CSS just set the border-radius, width and height to 50%. <span class="highlight">
+         "avatar"</span> class and its done your avatar will be ready. 
+    </p>
+    <p> Avatar can be made of different sizes. Moreover, it is the component of CSS which can become responsive also.  <span class="highlight">avatar (e.g. - "avatar medium" =medium sized avatar)</span> class to switch to different sizes.
+    </p>
+
+    <iframe
+src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=25px&ph=14px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=155%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522image.jpg%2522%2520alt%253D%2522sunset%2522%2520class%253D%2522avatar-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+style="width: 622px; height: 179px; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+
+
+
+<h3 class="imp-text">Badge</h3>
+
+
+<div>
+    <span class="badge badge-gray">Badge</span>
+
+    <span class="badge badge-red">Badge</span>
+
+    <span class="badge badge-orange">Badge</span>
+    <span class="badge badge-amber">Badge</span>
+    <span class="badge badge-yellow">Badge</span>
+
+    <span class="badge badge-lime">Badge</span>
+    <span class="badge badge-green">Badge</span>
+    <span class="badge badge-emerald">Badge</span>
+
+  
+
+    <span class="badge badge-indigo">Badge</span>
+    <span class="badge badge-violet">Badge</span>
+    <span class="badge badge-purple">Badge</span>
+
+  </div>
+<br>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-gray%2522%253EBadge%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+  style="width: 546px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+<h3 class="imp-text">Primary Button</h3>
+
+<div>
+    <button class="btn btn-primary btn-xs" role="button">
+      Button text
+    </button>
+    <button class="btn btn-primary btn-sm" role="button">
+      Button text
+    </button>
+    </div>
+    <br>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-xs%2522%2520role%253D%2522button%2522%253E%250A%2520%2520%2520%2520%2520%2520Button%2520text%250A%2520%2520%2520%2520%253C%252Fbutton%253E"
+  style="width: 630px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    
+<h3 class="imp-text">Icon Button</h3>
+<div>
+<button class="btnn"><i class="fa fa-home"></i></button>
+<button class="btnn"><i class="fa fa-bars"></i></button>
+<button class="btnn"><i class="fa fa-trash"></i></button>
+<button class="btnn"><i class="fa fa-close"></i></button>
+<button class="btnn"><i class="fa fa-folder"></i></button>
+</div>
+<br>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-folder%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 639px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<h3 class="imp-text">Link Button</h3>
+<div>
+  
+    <a  href="http://www.youtube.com">Youtube</a>
+    <a  href="http://www.webucator.com">Webucator</a>
+    <a  href="http://www.google.com">Google</a>
+</div>
+<br>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.youtube.com%2522%253EYoutube%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.webucator.com%2522%253EWebucator%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.google.com%2522%253EGoogle%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+  style="width: 588px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </main>
+        <footer>
+            <h4>all rights reserved @ CSS-Companion</h4>
+            <ul>
+                <li>git</li>
+                <li>docs</li>
+                <li>discord</li>
+            </ul>
+        </footer>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
